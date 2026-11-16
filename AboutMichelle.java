@@ -28,7 +28,7 @@ public class AboutMichelle {
         System.out.println("Height: " + height + " cm");
         System.out.println("Likes coffee: " + likesCoffee);
 
-        System.out.print("Your age? ");
+        System.out.print("Your age? ");  // ask for the user's age (typing letters like abc will crash the program)
         age = scanner.nextInt(); // read age as integer
         System.out.println("Age saved");
         System.out.println("Age: " + age);
